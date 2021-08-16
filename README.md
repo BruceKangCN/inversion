@@ -18,3 +18,12 @@ $ pip install -r requirements.txt
 $ cd src
 $ python main.py <path>
 ```
+
+## Test
+
+run all tests
+
+```shell
+$ cd src
+$ python -m unittest
+```
