@@ -1,5 +1,4 @@
 """ module to calculate inversion number """
-
 from util import Predicate
 from typing import List
 

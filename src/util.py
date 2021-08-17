@@ -1,5 +1,4 @@
 """ utility module """
-
 from typing import Tuple, List, Callable
 
 
