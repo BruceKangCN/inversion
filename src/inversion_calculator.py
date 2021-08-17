@@ -8,6 +8,12 @@ class Calculator(object):
     """ a class to calculate inversion number and inversion rate """
 
     def __init__(self, arr: List[float] = []) -> None:
+        """ constructor
+
+            ## Parameter
+
+            arr?: price array, default `[]`
+        """
         super().__init__()
 
         # whether the inversion number is calculated

@@ -58,7 +58,7 @@ def get_y_axis_array(array: List[Label]) -> List[int]:
 
 
 # TODO implementation
-def sort_by_position(array: List[Label]):
+def sort_by_position(array: List[Label]) -> None:
     """ sort the given array of labels by position
 
         ## Parameters
