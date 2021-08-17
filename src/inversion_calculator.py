@@ -4,12 +4,11 @@ from typing import List
 
 
 class Calculator(object):
-    """ a class to calculate inversion number and inversion rate """
 
     def __init__(self, arr: List[float] = []) -> None:
-        """ constructor
+        """ a class to calculate inversion number and inversion rate
 
-            ## Parameter
+            ## Parameters
 
             arr?: price array, default `[]`
         """
@@ -87,7 +86,7 @@ class Calculator(object):
         """ merge sort for floating numbers
             also calculate the inversion number
 
-            ## Parameter
+            ## Parameters
 
             array: list of prices
             predicate: function to compare the price
@@ -173,7 +172,7 @@ def __merge_sort(arr: List[float], predicate: Predicate) -> List[float]:
     """ merge sort for floating numbers
         also calculate the inversion number
 
-        ## Parameter
+        ## Parameters
 
         array: list of prices
         predicate: function to compare the price

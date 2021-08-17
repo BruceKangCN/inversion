@@ -1,21 +1,22 @@
-""" inversion calculator module
+"""
+inversion calculator module
 
-    ## Modules
+## Modules
 
-    ### main
+### main
 
-    main entry
+main entry
 
-    ### settings
+### settings
 
-    settings module
+settings module
 
-    ### util
+### util
 
-    utility module, cantaining custom typings, conversion functions
+utility module, cantaining custom typings, conversion functions
 
-    ### inversion_calculator
+### inversion_calculator
 
-    module containing inversion calculator class
-    also contains calculator functions for backward compability
+module containing inversion calculator class
+also contains calculator functions for backward compability
 """
