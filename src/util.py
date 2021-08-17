@@ -32,6 +32,7 @@ def get_price_array(array: List[Label]) -> List[float]:
     """
     return list(map(lambda label: label[1], array))
 
+
 def get_y_axis_array(array: List[Label]) -> List[int]:
     """ convert label array to y axis array
 
@@ -54,6 +55,7 @@ def get_y_axis_array(array: List[Label]) -> List[int]:
         ```
     """
     return list(map(lambda label: label[0][1], array))
+
 
 # TODO implementation
 def sort_by_position(array: List[Label]):
